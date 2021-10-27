@@ -6,6 +6,9 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
+// import { NgxMaskModule, IConfig } from 'ngx-mask';
+
+// export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
 
 @NgModule({
   imports: [
@@ -14,6 +17,7 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     FormsModule,
     ExploreContainerComponentModule,
     Tab1PageRoutingModule
+    // NgxMaskModule.forRoot()
   ],
   declarations: [Tab1Page]
 })
