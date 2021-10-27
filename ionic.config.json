@@ -1,0 +1,7 @@
+{
+  "name": "user-crud-iong",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
